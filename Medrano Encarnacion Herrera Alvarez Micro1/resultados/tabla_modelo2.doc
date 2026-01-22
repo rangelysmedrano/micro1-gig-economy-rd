@@ -1,0 +1,49 @@
+
+<table style="text-align:center"><caption><strong>Tabla 2. Modelo 2 (Logit): Probabilidad de ingreso principal</strong></caption>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>ingreso_principal</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">horas_semanales</td><td>0.060<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.028)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorDelivery (PedidosYa, rappi, etc.)</td><td>-0.912</td></tr>
+<tr><td style="text-align:left"></td><td>(1.678)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorFreelancer Digital</td><td>-0.252</td></tr>
+<tr><td style="text-align:left"></td><td>(1.013)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorOtro</td><td>-18.503</td></tr>
+<tr><td style="text-align:left"></td><td>(3,056.880)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionPrimaria</td><td>18.685</td></tr>
+<tr><td style="text-align:left"></td><td>(6,522.639)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionSecundaria</td><td>0.876</td></tr>
+<tr><td style="text-align:left"></td><td>(1.707)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionTécnico</td><td>-17.299</td></tr>
+<tr><td style="text-align:left"></td><td>(6,522.639)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionUniversitario (en curso)</td><td>0.189</td></tr>
+<tr><td style="text-align:left"></td><td>(1.532)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionUniversitario (graduado)</td><td>3.289<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(1.760)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad35-44 años</td><td>-0.538</td></tr>
+<tr><td style="text-align:left"></td><td>(1.026)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad45-54 años</td><td>-0.853</td></tr>
+<tr><td style="text-align:left"></td><td>(1.542)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad55< años (mayor que 18 años)</td><td>14.736</td></tr>
+<tr><td style="text-align:left"></td><td>(6,522.639)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>-1.919</td></tr>
+<tr><td style="text-align:left"></td><td>(1.739)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>50</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-19.132</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>64.264</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

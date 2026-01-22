@@ -1,0 +1,51 @@
+
+<table style="text-align:center"><caption><strong>Tabla 3. Modelo 4: Diferencias por periodo de inicio</strong></caption>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>horas_semanales</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">periodo</td><td>-0.408</td></tr>
+<tr><td style="text-align:left"></td><td>(6.252)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorDelivery (PedidosYa, rappi, etc.)</td><td>8.304</td></tr>
+<tr><td style="text-align:left"></td><td>(11.879)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorFreelancer Digital</td><td>12.685<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(7.035)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">sectorOtro</td><td>-1.276</td></tr>
+<tr><td style="text-align:left"></td><td>(10.656)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionPrimaria</td><td>25.664</td></tr>
+<tr><td style="text-align:left"></td><td>(21.855)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionSecundaria</td><td>6.451</td></tr>
+<tr><td style="text-align:left"></td><td>(10.366)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionTécnico</td><td>-8.310</td></tr>
+<tr><td style="text-align:left"></td><td>(19.087)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionUniversitario (en curso)</td><td>6.144</td></tr>
+<tr><td style="text-align:left"></td><td>(9.281)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">educacionUniversitario (graduado)</td><td>12.189</td></tr>
+<tr><td style="text-align:left"></td><td>(8.642)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad35-44 años</td><td>-1.648</td></tr>
+<tr><td style="text-align:left"></td><td>(6.182)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad45-54 años</td><td>-1.347</td></tr>
+<tr><td style="text-align:left"></td><td>(10.417)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">edad55< años (mayor que 18 años)</td><td>9.093</td></tr>
+<tr><td style="text-align:left"></td><td>(18.310)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>11.033</td></tr>
+<tr><td style="text-align:left"></td><td>(11.334)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>50</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.242</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>-0.003</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>16.772 (df = 37)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>0.987 (df = 12; 37)</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>

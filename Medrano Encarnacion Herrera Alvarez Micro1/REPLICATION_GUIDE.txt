@@ -1,0 +1,59 @@
+REPLICATION GUIDE
+Proyecto Final Microeconomía I
+Oferta laboral en la gig economy dominicana (2020–2025)
+
+1. Software requerido
+- R (versión recomendada 4.2 o superior)
+- RStudio (recomendado)
+
+2. Estructura del proyecto
+El proyecto debe mantener la siguiente estructura de carpetas:
+
+- codigo/
+- datos/
+- resultados/
+- README.md
+- REPLICATION_GUIDE.txt
+
+3. Datos
+El archivo de datos debe ubicarse en la carpeta `datos/` con el nombre:
+- encuesta_plataformas.xlsx
+
+El script de preparación genera automáticamente:
+- encuesta_limpia.csv
+
+4. Ejecución del análisis
+Los scripts deben ejecutarse en el siguiente orden:
+
+Paso 1:
+Abrir el proyecto en RStudio (archivo .Rproj si existe) y ejecutar:
+- codigo/01_preparacion_datos.R
+
+Este script:
+- importa la encuesta original,
+- limpia los datos,
+- construye las variables,
+- guarda la base limpia en la carpeta `datos/`.
+
+Paso 2:
+Ejecutar:
+- codigo/02_modelos_y_tablas.R
+
+Este script:
+- genera gráficos descriptivos,
+- realiza pruebas de hipótesis,
+- estima los modelos econométricos,
+- exporta tablas y figuras a la carpeta `resultados/`.
+
+5. Outputs esperados
+Al finalizar la ejecución, la carpeta `resultados/` debe contener:
+
+- figura_1_horas_semanales.png
+- figura_2_horas_vs_ingreso_principal.png
+- tabla_modelo1.doc
+- tabla_modelo2.doc
+- tabla_modelo4.doc
+
+6. Notas
+- Los resultados se reproducen automáticamente al ejecutar los scripts en orden.
+- Las tablas exportadas están en formato compatible con Word y Google Docs.
